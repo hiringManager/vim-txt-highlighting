@@ -6,7 +6,7 @@ let g:names = readfile('names.txt')
 " Define a syntax highlighting group for the them
 syntax keyword Nouns containedin=ALL contained ctermfg=blue
 syntax keyword Verbs containedin=ALL contained ctermfg=red
-syntax keyword Verbs containedin=ALL contained ctermfg=green
+syntax keyword Names containedin=ALL contained ctermfg=green
 
 " Loop through each word
 
